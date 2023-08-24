@@ -6,7 +6,7 @@
 }
 .about-container {
   padding: 220px 134px 0 135px;
-background: #FDF0E9;
+  background: #FDF0E9;
   min-height: 100vh;
 }
 
@@ -27,8 +27,7 @@ background: #FDF0E9;
   width: 394px;
   margin: auto;
   margin-top: 20px;
-  color: var(--text-dark, #391400);
-
+  color: var(--text-light, #fff);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 56px;

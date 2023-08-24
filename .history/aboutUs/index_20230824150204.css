@@ -6,7 +6,7 @@
 }
 .about-container {
   padding: 220px 134px 0 135px;
-background: #FDF0E9;
+  background: #28293e;
   min-height: 100vh;
 }
 
@@ -27,8 +27,7 @@ background: #FDF0E9;
   width: 394px;
   margin: auto;
   margin-top: 20px;
-  color: var(--text-dark, #391400);
-
+  color: var(--text-light, #fff);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
   font-size: 56px;
@@ -42,10 +41,12 @@ background: #FDF0E9;
   margin-top: 64px;
   display: flex;
   width: 100%;
+  background-color: yellowgreen;
 }
 .about-container .boxes .box-1, 
 .about-container .boxes .box-2 {
 width: 50%;
+background-color: yellow;
 }
 .about-container .box {
   padding: 48px;
@@ -53,12 +54,10 @@ width: 50%;
   /* height: 400px; */
   border-radius: 6px 0px 0px 0px;
   border: 1px solid #f3d1bf;
-
+  background: #fff;
   box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
 }
-.about-container .boxes .box:first-child{
-    background: #fff;
-}
+
 .about-container .boxes .box .p-text img {
   width: 152px;
   height: 24px;

@@ -19,6 +19,7 @@
 }
 .home-container .agency .logo-box {
   position: relative;
+  background-color: yellow;
 }
 .home-container .agency .logo-box .img-1 {
   width: 48px;
@@ -45,15 +46,12 @@
 }
 .home-container nav ul {
   width: 36%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: yellow;
 }
-
-.home-container nav ul li {
+.home-container nav .aboutus ul li {
   list-style-type: none;
 }
-.home-container nav ul li a {
+.home-container nav .aboutus ul li a {
   color: var(--text-light, #fff);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
@@ -64,15 +62,11 @@
   line-height: 32px;
   text-decoration: none;
 }
-.home-container nav button {
-  border: none;
-  background: none;
-  border-radius: 10px;
-  border: 1px solid white;
-  padding: 10px 30px 10px 30px;
+.home-container nav  ul {
+  display: flex;
+  justify-content: space-between;
 }
-
-.home-container nav button a {
+.home-container nav .button a {
   text-decoration: none;
   color: var(--text-light, #fff);
   font-feature-settings: "clig" off, "liga" off;
@@ -81,11 +75,14 @@
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
+  border-radius: 0px 1px 1px 0px;
+  border: 1px solid white;
+  padding: 10px 30px 10px 30px;
 }
-.home-container main {
+.home-container .texts {
   margin-top: 164px;
 }
-.home-container main h1 {
+.home-container .texts h1 {
   color: var(--text-light, #fff);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
@@ -96,9 +93,7 @@
   line-height: 80px;
   letter-spacing: -2px;
 }
-.home-container main p {
-  margin: auto;
-  width: 570px;
+.home-container .texts p {
   color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
