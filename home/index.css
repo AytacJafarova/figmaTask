@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding: 70px 135px 0 135px;
+    min-height: 100vh;
+    background: #28293E;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.agency {
+    display: flex;
+    position: relative;
+}
+.agency :nth-child(2) {
+position: absolute;
+margin: auto;
+top: 3px;
+bottom: 0;
+left: 13px;
+}
+
+.nav .agency h1 {
+    color: var(--text-light, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    margin-left: 28px;
+}
+.aboutus {
+    width: 515px;
+}
+.nav .aboutus ul li {
+list-style-type: none;
+}
+.nav .aboutus ul li a {
+    color: var(--text-light, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+text-decoration: none;
+}
+.nav .aboutus ul {
+display: flex;
+justify-content: space-between;
+}
+.nav .button a {
+    text-decoration: none;
+    color: var(--text-light, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    border-radius: 0px 1px 1px 0px;
+border: 1px solid white;
+padding: 10px 30px 10px 30px;
+}
+.texts {
+    margin-top: 164px;
+}
+.texts h1 {
+    color: var(--text-light, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px; 
+    letter-spacing: -2px;
+}
+.texts p {
+    color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+margin-top: 24px;
+}
